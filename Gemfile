@@ -17,6 +17,8 @@ gem 'jquery-rails', '4.1.1'
 gem 'turbolinks', '5.0.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '2.5.0'
+#use twitter bootstrap library for front-end UI and layout
+gem 'bootstrap-sass', '3.3.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
@@ -28,6 +30,7 @@ group :development, :test do
   gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  
 end
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
