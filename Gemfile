@@ -21,6 +21,8 @@ gem 'jbuilder', '2.5.0'
 gem 'bootstrap-sass', '3.3.7'
 #use font awesome sass gem for adding logos and icons
 gem 'font-awesome-sass', '4.6.2'
+#use herb
+gem 'hirb', '0.7.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
