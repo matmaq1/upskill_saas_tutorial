@@ -67,3 +67,8 @@ h1, h2, h3 {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+// to not have flash messages from devise
+.alert-notice {
+  
+  display: none;
+}
