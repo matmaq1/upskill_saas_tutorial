@@ -25,6 +25,9 @@ gem 'font-awesome-sass', '4.6.2'
 gem 'hirb', '0.7.3'
 # Use Devise for user authenthication
 gem 'devise', '4.2.0'
+# Use Stripe to S U C C these moniez
+gem 'stripe'
+gem 'figaro'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'
 # Use ActiveModel has_secure_password
