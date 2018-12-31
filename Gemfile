@@ -27,6 +27,7 @@ gem 'hirb', '0.7.3'
 gem 'devise', '4.2.0'
 # Use Stripe to S U C C these moniez
 gem 'stripe'
+#hide api keys on deploymeny
 gem 'figaro'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '3.0'

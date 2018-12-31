@@ -1,0 +1,7 @@
+Stripe iontegration
+*   Users should have a struipe customer token in the users table
+*   JS should prevent Pro form from actually pushing the data to our server and send this information to Stripe instead
+*   JS should send user fields and card token to our rails app. Rails app should validate the user fields. Rails app will note whether they are plan 1 or plan 2
+*   Once validated, Rails should send user info (email and plan id ) and card token to Stripe server and Stripe will create a subscription and send back customer token
+*   Nowe we should save the customer token and user information to our database.
+
